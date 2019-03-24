@@ -3,7 +3,7 @@ const app = express();
 
 const PORT = process.env.PORT;
 
-let count = 0;
+let count = 1;
 
 app.get('/', (req, res) => {
     const msg = 'This is port #' + PORT + '. I have been hit ' + count + ' times.';
